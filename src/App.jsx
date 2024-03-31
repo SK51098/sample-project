@@ -7,13 +7,15 @@ import {
 import Home from "./pages/home";
 import PageNotFound from "./pages/pageNotFound";
 import "./App.css";
+import FaqPage from "./pages/faq_Pages";
 
 const App = () => {
   return (
     <>
       <Router>
         <Routes>
-          <Route exact path="/" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
+          <Route exact path="/" element={<FaqPage />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </Router>

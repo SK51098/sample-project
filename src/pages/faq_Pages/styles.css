@@ -1,0 +1,10 @@
+.faqpage{
+    color:aqua;
+    background-color: blueviolet;
+}
+.faqpage p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin-left: 40%;
+    margin-top: 20%;
+}
